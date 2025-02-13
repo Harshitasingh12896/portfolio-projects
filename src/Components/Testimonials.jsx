@@ -3,7 +3,7 @@ import React from 'react'
  import star_icon from "../assets/star_icon.svg";
  import { motion } from "framer-motion"
 
-function Testimonials() {
+function Testimonials({ IsDarkmode }) {
   return (
     <motion.div
     initial={{opacity:0, x:200}}

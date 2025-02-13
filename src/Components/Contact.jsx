@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 
-const Contact = () => {
+const Contact = ({ IsDarkmode }) => {
   const formRef = useRef();
   const [isSent, setIsSent] = useState(false);
   const [loading, setLoading] = useState(false);

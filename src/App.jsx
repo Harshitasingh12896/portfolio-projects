@@ -14,12 +14,13 @@ const App = () => {
   return (
     <div className='w-full overflow-hidden'>
       <ToastContainer/>
-      <Header/>
-      <About/>
-      <Projects/>
-      <Testimonials/>
-      <Contact/>
-      <Footer/>
+      <Header IsDarkmode={IsDarkmode}/>
+      <About IsDarkmode={IsDarkmode} />
+
+      <Projects IsDarkmode={IsDarkmode}/>
+      <Testimonials IsDarkmode={IsDarkmode}/>
+      <Contact IsDarkmode={IsDarkmode}/>
+      <Footer IsDarkmode={IsDarkmode}/>
 
     </div>
   )

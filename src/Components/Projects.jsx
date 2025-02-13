@@ -4,7 +4,7 @@ import right_arrow from '../assets/right_arrow.svg';
 import { projectsData} from '../assets/assets';
 import { motion } from "framer-motion"
 
-const Projects = () => {
+const Projects = ({ IsDarkmode }) => {
   const [currentIndex, setCurrentIndex] = useState(0); // Track current image index
   const [cardsToShow, setCardsToShow] = useState(1); // Track how many cards to show
     

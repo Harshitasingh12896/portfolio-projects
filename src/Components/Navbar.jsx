@@ -3,7 +3,7 @@ import logo_dark from '../assets/logo_dark.svg';
 import icons8menu from '../assets/icons8menu.svg';
 import cross_icon from '../assets/cross_icon.svg';
 
-function Navbar() {
+function Navbar({ IsDarkmode }) {
   const [showMobileMenu,setshowMobileMenu] = useState(false)
   useEffect(()=>{
     if(showMobileMenu){

@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar';
 import { motion } from "framer-motion"
 
-const Header = () => {
+const Header = ({ IsDarkmode }) => {
   return (
     <div 
     className='min-h-screen mb-4 bg-cover bg-centre flex items-centre w-full overflow-hidden'
