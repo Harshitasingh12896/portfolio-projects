@@ -77,12 +77,12 @@ import { infoList,toolsData } from '../../data/assets';
               <li
                 key={index}
                 className={`p-4 rounded-lg shadow-lg flex flex-col items-center text-center hover:-translate-y-1 duration-500 hover:shadow-black ${
-                  IsDarkmode ? "bg-gray-800 text-white hover:bg-gray-700" : "bg-white text-black hover:bg-lightHover"
+                  IsDarkmode ? "bg-gray-200 text-white hover:bg-gray-700" : "bg-white text-black hover:bg-lightHover"
                 }`}
               >
                 <Image src={icon} alt={title} width={50} height={50} className="mb-4" />
                 <h3 className="text-xl font-semibold">{title}</h3>
-                <p className="text-gray-600">{description}</p>
+                <p className="text-black-900">{description}</p>
               </li>
             ))}
           </motion.ul>
