@@ -16,7 +16,7 @@ const Header = ({ IsDarkmode }) => {
           className="flex justify-center w-auto h-auto rounded-full overflow-hidden"
         >
           <Image
-            src="/assets/Harshita.jpg"
+            src="/assets/Harshita.png.jpg"
             alt="Harshita Singh - Frontend Developer"
             width={IsDarkmode ? 200 : 300}
             height={300}
